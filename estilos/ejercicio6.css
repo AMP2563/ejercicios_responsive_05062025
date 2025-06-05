@@ -1,0 +1,38 @@
+* {
+    /* width: 80%;
+    margin-left: 10%; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+img {
+    width: 90px;
+    height: 50px;
+}
+
+rejilla {display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-areas: 
+    "A B"
+    "A B"
+    "A B C"
+    "A B" ;
+justify-items: auto; 
+font-size: 14px;
+}
