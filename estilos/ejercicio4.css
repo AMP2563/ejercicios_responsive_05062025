@@ -1,0 +1,35 @@
+* {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Tahoma, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .tarjeta {
+      background-color: #c0bfbf;
+      padding: 20px;
+      border: 1px solid #bd4040;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .container {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
