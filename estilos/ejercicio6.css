@@ -57,6 +57,13 @@ a {
     font-size: 14px;
 }
 
+.itemb {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-size: 14px;
+}
+
 .item img {
     width: 200px;
     height: 200px;
